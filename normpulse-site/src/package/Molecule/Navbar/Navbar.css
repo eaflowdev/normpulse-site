@@ -7,10 +7,22 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.navbar-logo-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .navbar-logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: #ffffff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar-logo:hover {
+    color: #00FFFF;
 }
 
 .navbar-links {
