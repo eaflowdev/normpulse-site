@@ -1,16 +1,18 @@
-import React, { type LabelHTMLAttributes } from 'react';
-import './Label.css';
+import "./Label.css";
+import type { LabelHTMLAttributes, ReactNode } from "react";
 
 interface LabelProps extends LabelHTMLAttributes<HTMLLabelElement> {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
-const Label: React.FC<LabelProps> = ({ children, className, ...props }) => {
+export default function Label({
+  children,
+  className = "",
+  ...props
+}: LabelProps) {
   return (
-    <label className={`atom-label ${className || ''}`} {...props}>
+    <label className={`label ${className}`} {...props}>
       {children}
     </label>
   );
-};
-
-export default Label;
+}

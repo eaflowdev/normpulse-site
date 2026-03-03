@@ -1,22 +1,23 @@
-import React, { type InputHTMLAttributes } from 'react';
-import './Input.css';
+import "./Input.css";
+import type { InputHTMLAttributes } from "react";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-    placeholder?: string;
   hasError?: boolean;
   isPassword?: boolean;
 }
 
-const Input: React.FC<InputProps> = ({ className, hasError, placeholder, isPassword }) => {
-  const errorClass = hasError ? 'atom-input--error' : '';
-  
+export default function Input({
+  className = "",
+  hasError = false,
+  isPassword = false,
+  type,
+}: InputProps) {
+  const errorClass = hasError ? "input--error" : "";
+
   return (
-    <input 
-    type={isPassword ? 'password' : 'text'}
-    placeholder={placeholder || ''}
-      className={`atom-input ${errorClass} ${className || ''}`}
+    <input
+      type={isPassword ? "password" : type || "text"}
+      className={`input ${errorClass} ${className}`}
     />
   );
-};
-
-export default Input;
+}
