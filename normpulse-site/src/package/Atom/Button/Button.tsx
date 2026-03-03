@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 
 interface ButtonProps {
   children: ReactNode;
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "outline";
 }
 
 export default function Button({

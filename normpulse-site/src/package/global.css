@@ -103,7 +103,7 @@
     --badge-gap: 10px;
     --badge-padding-lr: 28px;
     --badge-padding-tb: 10px;
-    --badge-icon-size: 20px;
+    --badge-icon-size: 14px;
     /* BADGE PRIMARY */
     --badge-primary-bg-color: var(--color-primary);
     --badge-primary-text-color: var(--color-ternary);
@@ -113,6 +113,6 @@
     --badge-secondary-text-color: var(--color-ternary);
 
     /* BADGE TERNARY */
-    --badge-ternary-bg-color: var(--color-primary);
+    --badge-ternary-bg-color: var(--color-ternary);
     --badge-ternary-text-color: var(--color-primary);
 }
