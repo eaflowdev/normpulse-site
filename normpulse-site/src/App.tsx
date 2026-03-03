@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <Button></Button>
+      <Button variant='primary'>Connexion</Button>
     </>
   )
 }
