@@ -1,0 +1,17 @@
+.card-price {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  margin: 0.5rem 0;
+}
+
+.card-price-amount {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #00FFFF;
+}
+
+.card-price-currency {
+  font-size: 1.25rem;
+  color: #00FFFF;
+}

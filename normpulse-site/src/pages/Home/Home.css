@@ -1,10 +1,10 @@
 .home {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #0f0f0f;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 .home-hero {
@@ -38,8 +38,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-bottom: 5rem;
 }
 
 .home-content::before {
@@ -65,4 +66,28 @@
     position: relative;
     z-index: 2;
     color: #fff;
+    margin-bottom: 3rem;
+}
+
+.home-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .home-products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .home-products-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
