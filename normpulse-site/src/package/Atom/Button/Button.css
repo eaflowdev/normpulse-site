@@ -1,7 +1,9 @@
 .button {
     padding: var(--button-padding-tb) var(--button-padding-lr);
     font-size: var(--button-font-size);
-    border-width: var(--button-border-size);
+    border: var(--button-border-size) solid transparent;
+    background: none;
+    cursor: pointer;
 }
 
 .button-primary {

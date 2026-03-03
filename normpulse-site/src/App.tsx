@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <Button variant='primary'>Connexion</Button>
+      <Button variant='secondary'>Profile</Button>
     </>
   )
 }
