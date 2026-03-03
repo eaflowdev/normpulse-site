@@ -1,0 +1,4 @@
+.navbar-item {
+    font-size: var(--navbar-item-font-size);
+    color: var(--navbar-item-color);
+}
