@@ -10,13 +10,13 @@ export default function Home() {
     {
       id: 1,
       image: caseinImage,
-      title: "Caséine Micellaire",
+      title: "Caséine",
       price: 39.99,
     },
     {
       id: 2,
       image: creatineImage,
-      title: "Créatine Monohydrate",
+      title: "Créatine",
       price: 24.99,
     },
     {
