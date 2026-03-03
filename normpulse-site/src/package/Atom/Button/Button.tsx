@@ -1,0 +1,9 @@
+import './Button.css';
+
+export default function Button() {
+  return (
+    <button className="button button-primary">
+      Click Me
+    </button>
+  );
+}

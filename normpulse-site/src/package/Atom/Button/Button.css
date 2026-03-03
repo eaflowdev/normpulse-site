@@ -1,0 +1,29 @@
+.button {
+    padding: var(--button-padding-tb) var(--button-padding-lr);
+    font-size: var(--button-font-size);
+    border-width: var(--button-border-size);
+}
+
+.button-primary {
+    background-color: var(--button-primary-bg-color);
+    color: var(--button-primary-text-color);
+    border-color: var(--button-primary-border-color);
+}
+
+.button-primary:focus {
+    background-color: var(--button-primary-focus-bg-color);
+    color: var(--button-primary-focus-text-color);
+    border-color: var(--button-primary-focus-border-color);
+}
+
+.button-primary:hover {
+    background-color: var(--button-primary-hover-bg-color);
+    color: var(--button-primary-hover-text-color);
+    border-color: var(--button-primary-hover-border-color);
+}
+
+.button-primary:disabled {
+    background-color: var(--button-primary-disabled-bg-color);
+    color: var(--button-primary-disabled-text-color);
+    border-color: var(--button-primary-disabled-border-color);
+}
