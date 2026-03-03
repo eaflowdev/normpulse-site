@@ -1,4 +1,5 @@
 import './Button.css';
+import '../../global.css';
 
 export default function Button() {
   return (
