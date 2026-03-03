@@ -1,10 +1,8 @@
 import "./Home.css";
-import Navbar from "../../package/Molecule/Navbar/Navbar";
 
 export default function Home() {
   return (
     <div className="home">
-      <Navbar />
       <section className="home-hero">
         <h1>Transformez Votre Corps</h1>
         <p>

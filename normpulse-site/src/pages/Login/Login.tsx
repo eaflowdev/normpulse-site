@@ -1,13 +1,10 @@
 import "./Login.css";
-import Navbar from "../../package/Molecule/Navbar/Navbar";
 import Button from "../../package/Atom/Button/Button";
 import TextField from "../../package/Molecule/Textfield/TextField";
 
 export default function Login() {
   return (
     <div className="login">
-      <Navbar />
-
       <section className="login-hero">
         <h1>Connexion</h1>
         <p>Accédez à votre espace personnel</p>
