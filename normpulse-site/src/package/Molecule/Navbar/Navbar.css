@@ -13,31 +13,6 @@
     color: #ffffff;
 }
 
-.navbar .button {
-    color: #ffffff;
-}
-
-.navbar .button-primary {
-    background-color: transparent;
-    color: #ffffff;
-    border-color: #ffffff;
-}
-
-.navbar .button-primary:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.navbar .button-secondary {
-    background-color: transparent;
-    color: #ffffff;
-    border-color: transparent;
-}
-
-.navbar .button-secondary:hover {
-    color: #00FFFF;
-}
-
 .navbar-links {
     display: flex;
     gap: 1rem;

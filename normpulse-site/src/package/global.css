@@ -7,6 +7,7 @@
     --color-grey: #CDCDCD;
     --color-grey-dark: #989898;
     --color-grey-darker: #868686;
+    --color-white: #FCFCFC;
 
     /* GLOBAL BUTTON */
     --button-padding-lr: 28px;
@@ -77,24 +78,27 @@
 
 
     /* INPUT COLORS */
-    --input-bg-color: #FCFCFC;
-    --input-text-color: #404040;
-    --input-border-color: #CDCDCD;
-    --input-border-focus-color: #404040;
-    --input-disabled-bg-color: #FCFCFC;
-    --input-disabled-text-color: #CDCDCD;
-    --input-disabled-border-color: #CDCDCD;
+    --input-bg-color: var(--color-white);
+    --input-text-color: var(--color-ternary);
+    --input-border-color: var(--color-grey);
+    --input-border-focus-color: var(--color-ternary);
+    --input-disabled-bg-color: var(--color-white);
+    --input-disabled-text-color: var(--color-grey);
+    --input-disabled-border-color: var(--color-grey);
 
     /* INPUT COLORS WITH BORDER */
-    --input-bg-color: #FCFCFC;
-    --input-text-color: #404040;
-    --input-border-color: #404040;
-    --input-border-focus-color: #404040;
-    --input-disabled-bg-color: #FCFCFC;
-    --input-disabled-text-color: #CDCDCD;
-    --input-disabled-border-color: #CDCDCD;
+    --input-bg-color: var(--color-white);
+    --input-text-color: var(--color-ternary);
+    --input-border-color: var(--color-ternary);
+    --input-border-focus-color: var(--color-ternary);
+    --input-disabled-bg-color: var(--color-white);
+    --input-disabled-text-color: var(--color-grey);
+    --input-disabled-border-color: var(--color-grey);
 
 
+    /* NAVBAR ITEM */
+    --navbar-item-color: var(--color-white);
+    --navbar-item-font-size: 16px;
 
 
     /* BADGE GLOBAL */
