@@ -78,21 +78,15 @@
 
 
     /* INPUT COLORS */
+    --input-font-size: 14px;
+    --input-padding-lr: 16px;
+    --input-padding-tb: 12px;
     --input-bg-color: var(--color-white);
     --input-text-color: var(--color-ternary);
     --input-border-color: var(--color-grey);
     --input-border-focus-color: var(--color-ternary);
-    --input-disabled-bg-color: var(--color-white);
-    --input-disabled-text-color: var(--color-grey);
-    --input-disabled-border-color: var(--color-grey);
-
-    /* INPUT COLORS WITH BORDER */
-    --input-bg-color: var(--color-white);
-    --input-text-color: var(--color-ternary);
-    --input-border-color: var(--color-ternary);
-    --input-border-focus-color: var(--color-ternary);
-    --input-disabled-bg-color: var(--color-white);
-    --input-disabled-text-color: var(--color-grey);
+    --input-disabled-bg-color: var(--color-grey);
+    --input-disabled-text-color: var(--color-grey-dark);
     --input-disabled-border-color: var(--color-grey);
 
 
