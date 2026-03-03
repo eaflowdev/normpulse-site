@@ -119,4 +119,11 @@
     /* BADGE TERNARY */
     --badge-ternary-bg-color: var(--color-ternary);
     --badge-ternary-text-color: var(--color-primary);
+
+
+    /* CARD */
+    --card-title-font-size: 22px;
+    --card-price-font-size: 22px;
+    --card-currency-font-size: 18px;
+    --card-price-gap: 5px;
 }

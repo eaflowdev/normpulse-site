@@ -1,17 +1,17 @@
 .card-price {
   display: flex;
   align-items: baseline;
-  gap: 0.25rem;
-  margin: 0.5rem 0;
+  justify-content: center;
+  gap: var(--card-price-gap);
 }
 
 .card-price-amount {
-  font-size: 1.75rem;
+  font-size: var(--card-price-font-size);
   font-weight: bold;
-  color: #00FFFF;
+  color: var(--color-primary);
 }
 
 .card-price-currency {
-  font-size: 1.25rem;
-  color: #00FFFF;
+  font-size: var(--card-currency-font-size);
+  color: var(--color-primary);
 }
