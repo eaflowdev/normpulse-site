@@ -8,7 +8,7 @@ interface FormFieldProps extends InputHTMLAttributes<HTMLInputElement> {
   isPassword?: boolean;
 }
 
-export default function FormField({
+export default function TextField({
   label,
   error,
   id,
