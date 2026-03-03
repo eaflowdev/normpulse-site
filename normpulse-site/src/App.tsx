@@ -1,12 +1,12 @@
 import './App.css'
 import Button from './package/Atom/Button/Button'
+import Login from './pages/Login/Login'
 
 function App() {
 
   return (
     <>
-      <Button variant='primary'>Connexion</Button>
-      <Button variant='secondary'>Profile</Button>
+    <Login />
     </>
   )
 }
