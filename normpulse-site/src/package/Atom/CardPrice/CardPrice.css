@@ -1,0 +1,17 @@
+.card-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: var(--card-price-gap);
+}
+
+.card-price-amount {
+  font-size: var(--card-price-font-size);
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.card-price-currency {
+  font-size: var(--card-currency-font-size);
+  color: var(--color-primary);
+}

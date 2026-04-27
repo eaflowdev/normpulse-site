@@ -1,0 +1,11 @@
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.form-field-error {
+  font-size: 0.85rem;
+  color: #e53935;
+}

@@ -1,0 +1,4 @@
+.label {
+  display: block;
+  color: var(--input-text-color);;
+}

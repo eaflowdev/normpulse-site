@@ -1,0 +1,31 @@
+.badge {
+    padding: var(--badge-padding-tb) var(--badge-padding-lr);
+    font-size: var(--badge-font-size);
+    display: flex;
+    flex-direction: row;
+    gap: var(--badge-gap);
+    background: none;
+    width: fit-content;
+    border-radius: var(--badge-border-radius);
+}
+
+.badge img {
+    width: var(--badge-icon-size);
+}
+
+.badge-primary {
+    background-color: var(--button-primary-bg-color);
+    color: var(--button-primary-text-color);
+}
+
+
+.badge-secondary {
+    background-color: var(--button-secondary-bg-color);
+    color: var(--button-secondary-text-color);
+}
+
+
+.badge-ternary {
+    background-color: var(--badge-ternary-bg-color);
+    color: var(--badge-ternary-text-color);
+}
